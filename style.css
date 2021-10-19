@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+}
+
+
+h1{
+    color:black;
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Playfair Display', serif;
+}
+
+.name{
+    max-width: 350px;
+    margin: auto;
+    background:burlywood;
+    border-radius: 6px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(69, 209, 69);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=password], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(69, 209, 69);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 100%;
+    background: cornflowerblue;
+    color: white;
+    padding:  14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit] :hover{
+    background: #000;
+}
+.footer{
+    font-size: 14;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 60%;
+    background-color: black;
+    color: #fff;
+}
